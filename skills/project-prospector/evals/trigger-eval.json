@@ -1,0 +1,22 @@
+[
+  {"query": "fan out some agents and go through everything I've built on this laptop since march, then rank them by which ideas are the most original", "should_trigger": true},
+  {"query": "i've got like 30 half-finished repos in my home dir and i've totally lost track. can you take stock of what's actually here and tell me which are worth finishing?", "should_trigger": true},
+  {"query": "what are the most genius / original ideas buried in my projects on this machine?", "should_trigger": true},
+  {"query": "audit all my side projects (skip the work monorepo at ~/acme-platform) and tell me what's strongest", "should_trigger": true},
+  {"query": "make me a tiered inventory of every project and idea on here, ranked by novelty", "should_trigger": true},
+  {"query": "which of my projects has the sharpest underlying idea? look across the whole machine, not just git repos — check my notes and downloads too", "should_trigger": true},
+  {"query": "do a deep sweep of this box and surface any project ideas i started and then abandoned", "should_trigger": true},
+  {"query": "survey just my homelab + proxmox + networking projects and rank them by how clever the idea is", "should_trigger": true},
+  {"query": "what have i been building lately across all my repos? give me the highlights ranked strongest-first", "should_trigger": true},
+  {"query": "rank everything i've made since may 1 by novelty and tell me which are vendored clones i didn't actually write", "should_trigger": true},
+  {"query": "rank these 5 python files in src/utils by cyclomatic complexity", "should_trigger": false},
+  {"query": "what's the best way to structure a new monorepo for the side project i'm about to start?", "should_trigger": false},
+  {"query": "go through my benchie repo and tell me which modules are the messiest and need refactoring", "should_trigger": false},
+  {"query": "summarize what this codebase does and how the main entrypoint works", "should_trigger": false},
+  {"query": "find all the TODO and FIXME comments across this repo and prioritize them for me", "should_trigger": false},
+  {"query": "i've got 3 job offers, help me rank which one to take", "should_trigger": false},
+  {"query": "just list the git repos under my home directory", "should_trigger": false},
+  {"query": "rank my open PRs on the customer-portal repo by how urgent they are to merge", "should_trigger": false},
+  {"query": "help me decide which feature to build next in my shopping-agent app", "should_trigger": false},
+  {"query": "what are the top open-source projects for LLM inference right now?", "should_trigger": false}
+]

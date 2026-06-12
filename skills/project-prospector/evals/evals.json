@@ -1,0 +1,21 @@
+{
+  "skill_name": "project-prospector",
+  "evals": [
+    {
+      "id": 0,
+      "name": "rank-since-date-with-exclusion",
+      "prompt": "fan out some agents and go through everything I've built on this machine since May 1, then rank them from the most original / genius ideas down to the least important. skip anything farmgpu related.",
+      "expected_output": "A tiered ranking (strongest idea first) of the user's non-farmgpu projects/ideas on the machine, built from a parallel two-pass discovery sweep. Should respect the May-1 cutoff and the farmgpu exclusion, cover blind spots (transcripts, running services, research artifacts), tag idea-vs-live-vs-dormant, and be read-only.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 1,
+      "name": "implicit-inventory-worth-my-time",
+      "prompt": "I've got a ton of half-finished side projects scattered around this laptop and honestly I've lost track. can you take stock of what's actually here and tell me which ones are actually worth my time?",
+      "expected_output": "Triggers the skill from indirect phrasing (no 'agents'/'rank'/'genius' keywords). Discovers the user's projects across the machine via the two-pass sweep, then ranks/prioritizes by what's worth pursuing. Should still hit blind spots and stay read-only.",
+      "files": [],
+      "assertions": []
+    }
+  ]
+}

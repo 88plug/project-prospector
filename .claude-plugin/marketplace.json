@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "project-prospector",
+  "description": "Discover, catalog, and rank everything you've built or sketched on a machine.",
+  "owner": {
+    "name": "88plug",
+    "email": "andrew@88plug.com"
+  },
+  "plugins": [
+    {
+      "name": "project-prospector",
+      "source": ".",
+      "displayName": "Project Prospector",
+      "description": "Two-pass parallel read-only sweep that catalogs and ranks everything you've built or sketched on a machine, into a tiered novelty/leverage ranking with idea/live/dormant tags and evidence-anchored rationale.",
+      "author": { "name": "88plug", "email": "andrew@88plug.com" },
+      "homepage": "https://github.com/88plug/project-prospector",
+      "license": "FSL-1.1-ALv2",
+      "category": "productivity",
+      "tags": ["type:plugin", "project-discovery", "catalog", "ranking", "filesystem-audit", "novelty", "multi-agent"]
+    }
+  ]
+}
