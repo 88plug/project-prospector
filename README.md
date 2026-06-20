@@ -2,6 +2,8 @@
 
 # Project Prospector
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/88plug/project-prospector)
+
 A Claude Code plugin that catalogs and ranks everything you've built or sketched on a machine — half-finished repos, one-off scripts, dormant ideas, running services — into a tiered ranking by idea-novelty and leverage.
 
 [![plugin-validate](https://github.com/88plug/project-prospector/actions/workflows/plugin-validate.yml/badge.svg)](https://github.com/88plug/project-prospector/actions/workflows/plugin-validate.yml)
