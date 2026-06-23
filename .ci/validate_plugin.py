@@ -31,6 +31,12 @@ def rel(p):
 
 
 # --- 1. plugin.json: valid JSON + has a name ---------------------------------
+# The Claude Code spec defines exactly ONE manifest, at .claude-plugin/plugin.json.
+# There is no root-level plugin.json — if one exists it would orphan the hooks.
+if (ROOT / "plugin.json").exists():
+    err("root plugin.json must not exist — the spec defines none "
+        "(the only manifest is .claude-plugin/plugin.json)")
+
 man = ROOT / ".claude-plugin" / "plugin.json"
 if not man.exists():
     err(".claude-plugin/plugin.json is missing")
@@ -39,6 +45,9 @@ else:
         m = json.loads(man.read_text())
         if not m.get("name"):
             err("plugin.json: required 'name' field missing")
+        kw = m.get("keywords", [])
+        if len(kw) != 20:
+            err(f"plugin.json: keywords must be exactly 20 (found {len(kw)})")
     except Exception as e:
         err(f"plugin.json: invalid JSON — {e}")
 

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# real eval/corpus data — never commit
+eval_real_corpus.json
+.real_corpus_manifest.json
+corpus/real_*
+profiles/real_*
+*.jsonl
+
+# round-specific campaign sweep scripts (one-time artifacts)
+scripts/sweep_r*.py
+
+# eval outputs
+eval_run_*.json
+EVAL_REPORT.md

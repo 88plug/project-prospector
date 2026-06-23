@@ -2,6 +2,10 @@ site_name: Project Prospector
 site_description: >-
   A Claude Code plugin that catalogs and ranks everything you've built or
   sketched on a machine into a tiered ranking by idea-novelty and leverage.
+site_url: https://88plug.github.io/project-prospector/
+repo_url: https://github.com/88plug/project-prospector
+repo_name: 88plug/project-prospector
+edit_uri: edit/main/docs/
 use_directory_urls: true
 
 theme:
@@ -28,6 +32,7 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - def_list
   - footnotes
   - tables
