@@ -1,11 +1,19 @@
 {
   "name": "project-prospector",
   "source": {
-    "source": "github",
-    "repo": "88plug/project-prospector"
+    "source": "url",
+    "url": "https://github.com/88plug/project-prospector.git"
   },
-  "description": "Discover, catalog, and rank everything you've built or sketched on a machine — two-pass parallel read-only sweep, blind-spot agents, tiered novelty/leverage ranking with idea/live/dormant tags.",
+  "description": "Discover, catalog, and rank everything you've built or sketched on a machine \u2014 two-pass parallel read-only sweep, blind-spot agents, tiered novelty/leverage ranking with idea/live/dormant tags.",
   "category": "productivity",
-  "tags": ["type:plugin", "project-discovery", "catalog", "ranking", "filesystem-audit", "novelty", "multi-agent"],
+  "tags": [
+    "type:plugin",
+    "project-discovery",
+    "catalog",
+    "ranking",
+    "filesystem-audit",
+    "novelty",
+    "multi-agent"
+  ],
   "homepage": "https://github.com/88plug/project-prospector"
 }
