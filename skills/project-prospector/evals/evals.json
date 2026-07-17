@@ -7,7 +7,15 @@
       "prompt": "fan out some agents and go through everything I've built on this machine since May 1, then rank them from the most original / genius ideas down to the least important. skip anything work-corp related.",
       "expected_output": "A tiered ranking (strongest idea first) of the user's non-work-corp projects/ideas on the machine, built from a parallel two-pass discovery sweep. Should respect the May-1 cutoff and the work-corp exclusion, cover blind spots (transcripts, running services, research artifacts), tag idea-vs-live-vs-dormant, and be read-only.",
       "files": [],
-      "assertions": []
+      "assertions": [
+        "tiered_ranking: output is a tiered ranking (S/A/B/C/D or equivalent) with strongest idea first",
+        "cutoff_honored: May 1 (or absolute equivalent) is applied; pre-cutoff dormant work is not presented as new",
+        "exclusion_honored: work-corp related projects are excluded from the main ranking",
+        "two_pass_sweep: evidence of cluster/partition sweep plus at least one Pass-2 blind-spot class",
+        "maturity_tags: entries tagged idea / LIVE / dormant (or equivalent idea-vs-execution state)",
+        "evidence_anchored: ranking rationales cite concrete paths, commit counts, or commands",
+        "read_only: no writes, deletes, commits, or service start/stop — inspection only"
+      ]
     },
     {
       "id": 1,
@@ -15,7 +23,13 @@
       "prompt": "I've got a ton of half-finished side projects scattered around this laptop and honestly I've lost track. can you take stock of what's actually here and tell me which ones are actually worth my time?",
       "expected_output": "Triggers the skill from indirect phrasing (no 'agents'/'rank'/'genius' keywords). Discovers the user's projects across the machine via the two-pass sweep, then ranks/prioritizes by what's worth pursuing. Should still hit blind spots and stay read-only.",
       "files": [],
-      "assertions": []
+      "assertions": [
+        "triggers_from_indirect: skill activates from inventory/worth-my-time phrasing without requiring agents/rank/genius keywords",
+        "inventory_produced: catalogs projects discovered across the machine (not a single-repo walk)",
+        "worth_time_prioritization: prioritizes which projects are worth pursuing (not a bare directory listing)",
+        "two_pass_or_blind_spots: evidence of multi-source discovery beyond a single ls (repos, notes, services, or similar)",
+        "read_only: no writes, deletes, commits, or service start/stop — inspection only"
+      ]
     }
   ]
 }
