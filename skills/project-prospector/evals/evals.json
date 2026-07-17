@@ -4,8 +4,8 @@
     {
       "id": 0,
       "name": "rank-since-date-with-exclusion",
-      "prompt": "fan out some agents and go through everything I've built on this machine since May 1, then rank them from the most original / genius ideas down to the least important. skip anything farmgpu related.",
-      "expected_output": "A tiered ranking (strongest idea first) of the user's non-farmgpu projects/ideas on the machine, built from a parallel two-pass discovery sweep. Should respect the May-1 cutoff and the farmgpu exclusion, cover blind spots (transcripts, running services, research artifacts), tag idea-vs-live-vs-dormant, and be read-only.",
+      "prompt": "fan out some agents and go through everything I've built on this machine since May 1, then rank them from the most original / genius ideas down to the least important. skip anything work-corp related.",
+      "expected_output": "A tiered ranking (strongest idea first) of the user's non-work-corp projects/ideas on the machine, built from a parallel two-pass discovery sweep. Should respect the May-1 cutoff and the work-corp exclusion, cover blind spots (transcripts, running services, research artifacts), tag idea-vs-live-vs-dormant, and be read-only.",
       "files": [],
       "assertions": []
     },
