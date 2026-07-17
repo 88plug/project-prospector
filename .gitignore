@@ -15,3 +15,6 @@ scripts/sweep_r*.py
 # eval outputs
 eval_run_*.json
 EVAL_REPORT.md
+
+# mkdocs build output
+site/
