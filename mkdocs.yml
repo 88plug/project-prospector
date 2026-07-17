@@ -1,7 +1,8 @@
 site_name: Project Prospector
 site_description: >-
-  A Claude Code plugin that catalogs and ranks everything you've built or
-  sketched on a machine into a tiered ranking by idea-novelty and leverage.
+  A Claude Code skill that catalogs and ranks everything you've built or
+  sketched on a machine — parallel read-only agents, blind-spot pass, tiered
+  ranking by idea-novelty and leverage.
 site_url: https://88plug.github.io/project-prospector/
 repo_url: https://github.com/88plug/project-prospector
 repo_name: 88plug/project-prospector
@@ -12,13 +13,13 @@ strict: true
 theme:
   name: material
   features:
-    - navigation.sections   # group nav by section, uses width well
-    - navigation.top        # back-to-top button
-    - navigation.instant    # SPA-style fast page loads
-    - content.code.copy     # copy button on code blocks (needs superfences below)
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
     - search.suggest
+    - toc.follow
   palette:
-    # Light/dark toggle that follows the OS preference by default.
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
@@ -30,6 +31,9 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+nav:
+  - Home: index.md
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -37,8 +41,16 @@ markdown_extensions:
   - def_list
   - footnotes
   - tables
-  - pymdownx.highlight     # code highlighting (ships with mkdocs-material)
-  - pymdownx.superfences   # required for content.code.copy + nested fences
-  - pymdownx.details       # collapsible <details> admonitions
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/88plug/project-prospector
