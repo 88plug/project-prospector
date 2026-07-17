@@ -16,8 +16,8 @@ A Claude Code plugin that catalogs and ranks everything you've built or sketched
 ## Install
 
 ```text
-/plugin marketplace add 88plug/project-prospector
-/plugin install project-prospector@project-prospector
+/plugin marketplace add 88plug/claude-code-plugins
+/plugin install project-prospector@88plug
 ```
 
 ## Quickstart
@@ -157,7 +157,7 @@ You can also install from a local clone:
 ```text
 git clone https://github.com/88plug/project-prospector
 /plugin marketplace add ./project-prospector
-/plugin install project-prospector@project-prospector
+/plugin install project-prospector@88plug
 ```
 
 ## Contributing

@@ -13,8 +13,8 @@ idea-novelty and leverage.
 ## Install
 
 ```text
-/plugin marketplace add 88plug/project-prospector
-/plugin install project-prospector@project-prospector
+/plugin marketplace add 88plug/claude-code-plugins
+/plugin install project-prospector@88plug
 ```
 
 Local clone (for development):
@@ -22,7 +22,7 @@ Local clone (for development):
 ```text
 git clone https://github.com/88plug/project-prospector
 /plugin marketplace add ./project-prospector
-/plugin install project-prospector@project-prospector
+/plugin install project-prospector@88plug
 ```
 
 No MCP server, hooks, or scripts. One skill plus agent-prompt templates and a
