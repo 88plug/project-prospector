@@ -17,6 +17,14 @@ idea-novelty and leverage.
 /plugin install project-prospector@88plug
 ```
 
+### Grok Build
+
+```text
+grok plugin marketplace add 88plug/claude-code-plugins
+grok plugin install project-prospector@88plug --trust
+```
+
+
 Local clone (for development):
 
 ```text

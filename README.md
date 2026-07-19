@@ -20,6 +20,14 @@ Discover, catalog, and rank everything you've built or sketched on a machine —
 /plugin install project-prospector@88plug
 ```
 
+### Grok Build
+
+```text
+grok plugin marketplace add 88plug/claude-code-plugins
+grok plugin install project-prospector@88plug --trust
+```
+
+
 ## Quickstart
 
 Ask in plain language — no command to memorize:
