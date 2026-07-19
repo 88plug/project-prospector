@@ -4,7 +4,7 @@
     "source": "url",
     "url": "https://github.com/88plug/project-prospector.git"
   },
-  "description": "Discover, catalog, and rank everything you've built or sketched on a machine \u2014 two-pass parallel read-only sweep, blind-spot agents, tiered novelty/leverage ranking with idea/live/dormant tags.",
+  "description": "Discover, catalog, and rank everything you've built or sketched on a machine via a two-pass parallel read-only sweep: a clustered project catalog plus blind-spot agents (transcripts, other agent CLIs, running services, research artifacts, beyond-home), synthesized into a tiered novelty/leverage ranking with idea/live/dormant tags and evidence-anchored rationale.",
   "category": "productivity",
   "tags": [
     "type:plugin",
