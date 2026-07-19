@@ -4,7 +4,7 @@
 
 [![DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/88plug/project-prospector)
 
-Discover, catalog, and rank everything you've built or sketched on a machine — a Claude Code multi-agent skill for filesystem project discovery with tiered novelty and leverage ranking.
+Discover, catalog, and rank everything you've built or sketched on a machine — a Claude Code + Grok multi-agent skill for filesystem project discovery with tiered novelty and leverage ranking.
 
 [![plugin-validate](https://github.com/88plug/project-prospector/actions/workflows/plugin-validate.yml/badge.svg)](https://github.com/88plug/project-prospector/actions/workflows/plugin-validate.yml)
 [![License: FSL-1.1-ALv2](https://img.shields.io/badge/license-FSL--1.1--ALv2-blue?style=flat)](LICENSE)
@@ -14,6 +14,8 @@ Discover, catalog, and rank everything you've built or sketched on a machine —
 </div>
 
 ## Install
+
+### Claude Code
 
 ```text
 /plugin marketplace add 88plug/claude-code-plugins
@@ -52,7 +54,7 @@ Dormant
 
 ## What it does
 
-Project Prospector is a Claude Code plugin and skill that discovers, catalogs, and ranks *your own* work across a machine. Half-finished repos, one-off scripts, dormant ideas, running services, notes, and research artifacts land in one S–D tiered ranking by idea novelty and leverage — not polish, not lines of code.
+Project Prospector is a Claude Code + Grok plugin and skill that discovers, catalogs, and ranks *your own* work across a machine. Half-finished repos, one-off scripts, dormant ideas, running services, notes, and research artifacts land in one S–D tiered ranking by idea novelty and leverage — not polish, not lines of code.
 
 It runs a two-pass, parallel, read-only multi-agent sweep, then synthesizes one ranking:
 

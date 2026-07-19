@@ -1,5 +1,5 @@
 site_name: Project Prospector
-site_description: 'Discover, catalog, and rank everything you''ve built or sketched on a machine — a Claude Code multi-agent skill for filesystem project discovery with tiered novelty and leverage ranking.'
+site_description: 'Discover, catalog, and rank everything you''ve built or sketched on a machine — a Claude Code + Grok multi-agent skill for filesystem project discovery with tiered novelty and leverage ranking.'
 site_url: https://88plug.github.io/project-prospector/
 repo_url: https://github.com/88plug/project-prospector
 repo_name: 88plug/project-prospector
