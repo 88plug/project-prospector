@@ -251,3 +251,26 @@ build with Material for MkDocs (`mkdocs build --strict`).
 [FSL-1.1-ALv2](https://github.com/88plug/project-prospector/blob/main/LICENSE)
 © 2026 [88plug](https://github.com/88plug) — Functional Source License; converts
 to Apache 2.0 two years after each release.
+
+## Features
+
+| Feature | What it does |
+| --- | --- |
+| Two-pass multi-agent sweep | Catalog clusters in parallel, then blind-spot agents for coverage |
+| Novelty / leverage ranking | S–D tiers on idea quality, not finish state or LOC |
+| Idea / LIVE / dormant tags | Separates insight quality from execution state on every entry |
+| Evidence-anchored rationale | Paths, commit counts, and numbers verified against disk |
+| Time window + scope | Relative cutoffs, theme/dir roots, and path exclusions honored by every agent |
+| Read-only by design | Inspect only — never edits, moves, deletes, commits, or starts services |
+| Alternative lenses | Initiative clustering, momentum, kill list, authorship, loss-risk |
+| Complements total-recall | One-shot ranked census, not a persistent operator memory profile |
+
+## Development
+
+Local clone for development only:
+
+```text
+git clone https://github.com/88plug/project-prospector
+/plugin marketplace add ./project-prospector
+/plugin install project-prospector@88plug
+```
